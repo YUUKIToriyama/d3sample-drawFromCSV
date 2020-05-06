@@ -13,7 +13,12 @@
 			<h1>#chart1</h1>
 		</div>
 		<script type="text/javascript">
-			drawFromCSV("./data/table1.csv", "#chart1")
+			drawFromCSV.barChart("./data/table1.csv", "#chart1")
 		</script>
+
+		<svg id="chart2">
+			<h1>#chart2</h1>
+		</svg>
+		<script type="text/javascript">drawFromCSV.pieChart("./data/table2.csv", "#chart2")</script>
 	</body>
 </html>

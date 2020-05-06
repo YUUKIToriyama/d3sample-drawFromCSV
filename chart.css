@@ -1,0 +1,11 @@
+/* chart.css */
+
+.bar {
+	background: #991188;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+}
+.bar:hover {
+	background: #994488;
+}
